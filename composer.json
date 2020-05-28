@@ -13,7 +13,6 @@
     "2amigos/yii2-leaflet-extension": "~1.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "4.*"
   },
   "autoload": {
     "classmap": ["src"]
