@@ -1,0 +1,6 @@
+composer.phar
+vendor/
+*.inl
+.idea/
+tests/
+composer.lock
