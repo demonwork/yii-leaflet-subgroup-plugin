@@ -44,7 +44,10 @@ class SubgroupClusterAsset extends AssetBundle
     public function init()
     {
         $this->sourcePath = __DIR__ . '/assets';
-        $this->js = ['js/subgroup.js'];
+        $this->js = [
+            'js/subgroup.js',
+            'js/leaflet.markercluster.js',
+        ];
         $this->css = ['css/MarkerCluster.css'];
     }
 
