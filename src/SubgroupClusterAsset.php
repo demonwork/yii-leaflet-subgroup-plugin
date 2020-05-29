@@ -36,13 +36,13 @@ class SubgroupClusterAsset extends AssetBundle
 
     public $js = [
         'yii\web\JqueryAsset',
-        'subgroup.js'
     ];
 
     public function init()
     {
         $this->sourcePath = __DIR__ . '/assets';
         $this->js = ['js/subgroup.js'];
+        $this->css = ['css/MarkerCluster.css'];
     }
 
 
