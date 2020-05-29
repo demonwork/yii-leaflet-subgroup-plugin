@@ -10,7 +10,8 @@
   ],
   "require": {
     "php": ">=7.1.0",
-    "2amigos/yii2-leaflet-extension": "~1.0"
+    "2amigos/yii2-leaflet-extension": "~1.0",
+    "2amigos/yii2-leaflet-markercluster-plugin": "~1.0"
   },
   "require-dev": {
   },

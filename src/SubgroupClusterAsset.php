@@ -29,7 +29,10 @@ use yii\web\AssetBundle;
  */
 class SubgroupClusterAsset extends AssetBundle
 {
-    public $depends = ['dosamigos\leaflet\LeafLetAsset'];
+    public $depends = [
+        'dosamigos\leaflet\LeafLetAsset',
+        'dosamigos\leaflet\plugins\markercluster\MarkerClusterAsset',
+        ];
 
     public $css = [
     ];
